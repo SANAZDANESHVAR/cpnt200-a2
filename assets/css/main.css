@@ -9,7 +9,7 @@
 
 body {
   margin: 0; 
-  font-size: clamp(14px, 3vw, 22px);
+  font-size: 20px;
   font-variant: small-caps;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -29,7 +29,7 @@ body {
 
 
 .my-customers {
-  width: max(40%, 244px);
+  width: max(40%, 260px);
   border: 1px solid black;
   border-radius: 4px;
   padding: 20px;
@@ -98,7 +98,7 @@ customer-info {
   margin-top:1em;
   display: flex;
   justify-content: space-evenly;
-  width: max(40%, 244px);
+  width: max(40%, 260px);
   border: 1px solid black;
   border-radius: 4px;
   padding: 10px;
