@@ -1,0 +1,155 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Railways', sans-serif;
+}
+
+
+
+body {
+  margin: 0; 
+  font-size: clamp(14px, 3vw, 22px);
+  font-variant: small-caps;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Index */
+.my-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+  background-color:honeydew;
+  font-size: 18px;
+
+}
+
+
+.my-customers {
+  width: max(40%, 244px);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 15px;;
+}
+
+/* <a>:hover */
+a:hover {
+  color:tomato;
+}
+
+/* Customer part  style */
+
+.container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer {
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 2em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  font-size: 20PX;
+}
+
+
+.customer-info {
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+ol {
+  background:black;
+  padding: 10px;
+  color:white;
+}
+
+
+ol li {
+  background: #502cb4;
+  padding: 5px;
+  margin-left: 35px;
+  color:white;
+}
+
+customer-info {
+  width: 70%;
+  margin-top:1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.personal-info {
+  margin-top:1em;
+  display: flex;
+  justify-content: space-evenly;
+  width: max(40%, 244px);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+
+/* back to home button */
+.customer button {
+  border: 2px solid black;
+  background-color: navy;
+  border-radius: 3px;
+  margin-top:1em;
+  padding: 2em;
+  align-self: flex-start;
+  color:white;
+  font-size: 20px;
+
+}
+
+.customer button:hover {
+  background-color:tomato;
+  color:navy;
+}
+
+.customer button:active {
+ background-color:aliceblue;
+ color:navy;
+  text-decoration: line;
+}
+
+
+ul{
+  display:flex;
+  padding-right: 0;
+  justify-content: right; 
+  display: flex;
+  margin-bottom: 2rem;
+ }
+
+
+
+.info li {
+  padding-bottom: 10px;
+}
+
+@media(max-width: 600px) {
+  .customer {
+    width: 80%;
+  }
+
+}
